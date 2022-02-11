@@ -46,7 +46,7 @@ const modal = () =>{
             },
             })
             .then(()=>{
-                setInterval(clearModal, 20);
+               setTimeout(clearModal, 20)
             })
             
 
